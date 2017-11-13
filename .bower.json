@@ -1,0 +1,14 @@
+{
+  "name": "tihh.php.errors",
+  "homepage": "https://github.com/tihhgoncalves/tihh.php.errors",
+  "_release": "9868695133",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9868695133e6a03e755219074e459b195621aca9"
+  },
+  "_source": "https://github.com/tihhgoncalves/tihh.php.errors.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/tihhgoncalves/tihh.php.errors.git",
+  "_direct": true
+}
