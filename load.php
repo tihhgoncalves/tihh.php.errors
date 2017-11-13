@@ -7,13 +7,17 @@
  */
 function tihh_errorHandler( $errno, $errstr, $errfile, $errline, $errcontext){
 
-  $hidden  = 'errno: ' . $errno . "\r\n";
-  $hidden .= 'errstr: ' . $errstr . "\r\n";
-  $hidden .= 'errfile: ' . $errfile . "\r\n";
-  $hidden .= 'errline: ' . $errline . "\r\n";
-  $hidden .= 'errcontext: ' . print_r($errcontext, true) . "\r\n";
+  if($errno != 8) { //ignora 8 = NOTICES
 
-  tihh_erros($errstr, $hidden);
+    $hidden = 'errno: ' . $errno . "\r\n";
+    $hidden .= 'errstr: ' . $errstr . "\r\n";
+    $hidden .= 'errfile: ' . $errfile . "\r\n";
+    $hidden .= 'errline: ' . $errline . "\r\n";
+    $hidden .= 'errcontext: ' . print_r($errcontext, true) . "\r\n";
+
+    tihh_erros($errstr, $hidden);
+
+  }
 }
 set_error_handler('tihh_errorHandler');
 
