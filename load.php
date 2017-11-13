@@ -1,6 +1,9 @@
 <?
 /*
  * Manipula erros do PHP
+ *
+ * v1.0.0
+ *
  */
 function tihh_errorHandler( $errno, $errstr, $errfile, $errline, $errcontext){
   tihh_erros($errstr);
