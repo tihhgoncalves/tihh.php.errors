@@ -1,8 +1,8 @@
 # Manipulação de Erros do PHP
 Essa função, manipula erros do PHP.
 
-[![Versão](http://app.tiago.art.br/flags/version.php?path=tihhgoncalves/tihh.php.erros)](/releases.md)
-[![Versão](http://app.tiago.art.br/flags/size.php?path=tihhgoncalves/tihh.php.erros)](/releases.md)
+[![Versão](http://app.tiago.art.br/flags/version.php?path=tihhgoncalves/tihh.php.errors)](/releases.md)
+[![Versão](http://app.tiago.art.br/flags/size.php?path=tihhgoncalves/tihh.php.errors)](/releases.md)
 
 
 ### Instalação
