@@ -18,7 +18,11 @@ set_exception_handler('tihh_exception_handler');
 
 function tihh_erros($msg){
   $html  = '<p class="tihh_errors" style="font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif;font-size: 14px;">';
-  $html .= '<strong>Erro: </strong>' . $msg;
+  $html .= '<strong>Ocorreu um erro ao tentar acessar o site.</strong>';
+  $html .= '<br>';
+  $html .= '<span style="color: #999;">';
+  $html .= $msg;
+  $html .= '<span>';
   $html .= '</p>';
   die($html);
 }
