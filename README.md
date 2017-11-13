@@ -9,7 +9,7 @@ Essa função, manipula erros do PHP.
 Para utilizar esse script, utilize o seguinte comando:
 
 ```
-  bower install https://github.com/tihhgoncalves/tihh.php.erros.git --save
+  bower install tihh.php.erros --save
 ```
 
 P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
