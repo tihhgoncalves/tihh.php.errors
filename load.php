@@ -2,7 +2,7 @@
 /*
  * Manipula erros do PHP
  *
- * v1.0.0
+ * v1.0.1
  *
  */
 function tihh_errorHandler( $errno, $errstr, $errfile, $errline, $errcontext){
